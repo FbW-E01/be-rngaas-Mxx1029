@@ -14,8 +14,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/FbW-E01/be-rngaas-Mxx1029/issues"
-  },
-  "homepage": "https://github.com/FbW-E01/be-rngaas-Mxx1029#readme"
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "node-fetch": "^3.0.0"
+  }
 }
