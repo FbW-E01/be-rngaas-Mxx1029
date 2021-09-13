@@ -5,6 +5,8 @@ dotenv.config();
 
 console.log("Api key is: " + process.env.API_KEY);
 
+console.log(process.env);
+
 const requestHandler = (req, res) => {
     console.log("request received, making random number!");
     const randomNumber = Math.round(Math.random() * 99999);
